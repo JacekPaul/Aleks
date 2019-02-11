@@ -1,0 +1,34 @@
+[Mon Nov 19 13:34:59.641727 2018] [autoindex:error] [pid 1243] [client 192.168.1.13:51816] AH01276: Cannot serve directory /home/aleks/localhost2/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Mon Nov 19 13:44:25.437480 2018] [mpm_prefork:notice] [pid 1233] AH00169: caught SIGTERM, shutting down
+[Mon Nov 19 13:44:28.272198 2018] [wsgi:warn] [pid 4386] mod_wsgi: Compiled for Python/3.5.1+.
+[Mon Nov 19 13:44:28.272351 2018] [wsgi:warn] [pid 4386] mod_wsgi: Runtime using Python/3.5.2.
+[Mon Nov 19 13:44:28.286719 2018] [mpm_prefork:notice] [pid 4386] AH00163: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Mon Nov 19 13:44:28.286872 2018] [core:notice] [pid 4386] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Nov 19 13:44:52.762047 2018] [mpm_prefork:notice] [pid 4386] AH00169: caught SIGTERM, shutting down
+[Mon Nov 19 13:44:54.602652 2018] [wsgi:warn] [pid 4504] mod_wsgi: Compiled for Python/3.5.1+.
+[Mon Nov 19 13:44:54.602820 2018] [wsgi:warn] [pid 4504] mod_wsgi: Runtime using Python/3.5.2.
+[Mon Nov 19 13:44:54.619002 2018] [mpm_prefork:notice] [pid 4504] AH00163: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Mon Nov 19 13:44:54.619154 2018] [core:notice] [pid 4504] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Nov 19 13:48:26.000908 2018] [:error] [pid 4536] [client 192.168.1.13:51942] script '/home/aleks/localhost2/forms.php' not found or unable to stat
+[Mon Nov 19 13:49:26.750156 2018] [mpm_prefork:notice] [pid 4504] AH00169: caught SIGTERM, shutting down
+[Mon Nov 19 13:49:28.663732 2018] [wsgi:warn] [pid 4717] mod_wsgi: Compiled for Python/3.5.1+.
+[Mon Nov 19 13:49:28.663899 2018] [wsgi:warn] [pid 4717] mod_wsgi: Runtime using Python/3.5.2.
+[Mon Nov 19 13:49:28.680052 2018] [mpm_prefork:notice] [pid 4717] AH00163: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Mon Nov 19 13:49:28.680215 2018] [core:notice] [pid 4717] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Nov 19 14:15:28.939505 2018] [mpm_prefork:notice] [pid 4717] AH00169: caught SIGTERM, shutting down
+[Mon Nov 19 14:15:30.896807 2018] [wsgi:warn] [pid 5743] mod_wsgi: Compiled for Python/3.5.1+.
+[Mon Nov 19 14:15:30.896973 2018] [wsgi:warn] [pid 5743] mod_wsgi: Runtime using Python/3.5.2.
+[Mon Nov 19 14:15:30.913102 2018] [mpm_prefork:notice] [pid 5743] AH00163: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Mon Nov 19 14:15:30.913264 2018] [core:notice] [pid 5743] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Nov 19 14:49:57.829838 2018] [:error] [pid 6630] [client 192.168.1.13:52618] PHP Warning:  file_get_contents(): Failed to enable crypto in /home/aleks/localhost2/process.php on line 71, referer: http://192.168.1.28:8080/form.php
+[Mon Nov 19 14:49:57.830575 2018] [:error] [pid 6630] [client 192.168.1.13:52618] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: operation failed in /home/aleks/localhost2/process.php on line 71, referer: http://192.168.1.28:8080/form.php
+[Mon Nov 19 14:49:57.830745 2018] [:error] [pid 6630] [client 192.168.1.13:52618] PHP Notice:  Trying to get property of non-object in /home/aleks/localhost2/process.php on line 73, referer: http://192.168.1.28:8080/form.php
+[Mon Nov 19 14:51:42.936157 2018] [:error] [pid 5751] [client 192.168.1.13:52638] PHP Warning:  fopen(/home/aleks/localhost2/log.txt): failed to open stream: Permission denied in /home/aleks/localhost2/process.php on line 25, referer: http://192.168.1.28:8080/form.php
+[Mon Nov 19 14:51:42.936734 2018] [:error] [pid 5751] [client 192.168.1.13:52638] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/aleks/localhost2/process.php on line 30, referer: http://192.168.1.28:8080/form.php
+[Mon Nov 19 14:51:42.936839 2018] [:error] [pid 5751] [client 192.168.1.13:52638] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/aleks/localhost2/process.php on line 31, referer: http://192.168.1.28:8080/form.php
+[Mon Nov 19 14:51:42.936919 2018] [:error] [pid 5751] [client 192.168.1.13:52638] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/aleks/localhost2/process.php on line 33, referer: http://192.168.1.28:8080/form.php
+[Mon Nov 19 15:21:01.388207 2018] [wsgi:warn] [pid 1219] mod_wsgi: Compiled for Python/3.5.1+.
+[Mon Nov 19 15:21:01.388353 2018] [wsgi:warn] [pid 1219] mod_wsgi: Runtime using Python/3.5.2.
+[Mon Nov 19 15:21:01.401966 2018] [mpm_prefork:notice] [pid 1219] AH00163: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Mon Nov 19 15:21:01.402124 2018] [core:notice] [pid 1219] AH00094: Command line: '/usr/sbin/apache2'
+

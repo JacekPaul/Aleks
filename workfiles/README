@@ -1,0 +1,16 @@
+Zawartość archiwum:
+    sample-scripts/
+        Katalog ten zawiera pliki z przykładowymi programami w bashu, wykorzystującymi odpowiednie elementy języka.
+    sample-admin-scripts/
+        Katalog zawiera przykładowe programy dokonujące zmian w systemie operacyjnym.
+    workdata/
+        access.log - plik z wycinkiem logów dostępu serwera HTTP Apache.
+        error.log - plik z wycinkiem logów błędów serwera HTTP Apache.
+        hw_200.csv - wzrost i waga 200 osób; każdy rekord zawiera trzy wartości - liczbę porządkową, wysokość (w calach), wagę (w funtach). Posiada nagłówek. Plik na licencji GNU LGPL: https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html.
+        lines.txt - w każdej linii znajduje się jeden status z fikcyjnej bramki płatności.
+        lorem_ipsum - plik z jednym akapitem Lorem Ipsum
+        lorem_ipsum_80 - plik z liniami Lorem Ipsum złamanymi po każdym 80 znaku.
+        swidryga_i_midryga.txt - Bolesław Leśmian, "Świdryga i Midryga". Źródło: http://literat.ug.edu.pl.
+    README - ten plik.
+
+Aleksander Spyra, Wrocław 2018
